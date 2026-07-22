@@ -1,0 +1,23 @@
+[package]
+name = "sportdbdev"
+description = "Rust library for the sportdb.dev API"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/pilgrimagesoftware/sportdbdev.rs"
+documentation = "https://docs.rs/sportdbdev"
+homepage = "https://github.com/pilgrimagesoftware/sportdbdev.rs"
+keywords = ["sportdb", "sports", "football", "soccer"]
+categories = ["api-bindings"]
+authors = ["Paul Schifferer <paul@schifferers.net>"]
+exclude = [
+    "*.orig",
+    ".github/*",
+    ".gitignore",
+    ".editorconfig",
+    ".cargo_vcs_info.json",
+]
+
+[dependencies]
